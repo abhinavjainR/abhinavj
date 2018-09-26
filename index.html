@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>One | Templates | Aione Framework</title>
+    <link rel="canonical" href="index.html">
+    <meta name="author" content="OXO IT SOLUTIONS PRIVATE LIMITED" />
+    <meta name="revisit-after" content="10" />
+    <meta name="language" content="EN" />
+    <meta name="copyright" content="©2018 OXO IT SOLUTIONS PRIVATE LIMITED" />
+    <meta name="robots" content="All" />
+    <meta name="theme-color" content="#1570a6" />
+    <meta name="application-name" content="Aione Framework">
+    <link rel="icon" type="image/png" href="https://cdn.aioneframework.com/assets/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://cdn.aioneframework.com/assets/css/aione.min.css">
+
+</head>
+
+<body>
+
+    <section>
+        <div class="ar pv-50 ph-5p">
+            <div class="aione-align-center mb-60 ph-20p">
+                <h2 class="font-weight-400 light-blue lighten-1 mb-20">App Overview</h2>
+                <p class="font-size-18 line-height-27 blue-grey darken-2 font-weight-300">Lorem ipsum dolor sit amet menandri lobortis laboramus nec ex, ullum regione instructior duo ei.</p>
+            </div>
+            <div class="ac l33 m33 s100 mt-20">
+                <div>
+                    <div class="aione-align-center mb-30">
+                        <i class="ion-ios-refresh font-size-70 ph-20 aione-circle white bg-blue-grdt"></i>
+                    </div>
+                    <div class="aione-align-center">
+                        <h4 class="font-weight-300 blue-grey darken-4 mb-10">Free Updates</h4>
+                        <p class="font-weight-300 font-size-18 line-height-27 blue-grey darken-4">Lorem ipsum dolor sit amet eu debet utinam vim Idque accusam debinam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ac l33 m33 s100 mt-20">
+                <div>
+                    <div class="aione-align-center mb-30">
+                        <i class="ion-ios-lock font-size-70 ph-25 aione-circle white bg-light-blue-grdt"></i>
+                    </div>
+                    <div class="aione-align-center">
+                        <h4 class="font-weight-300 blue-grey darken-4 mb-10">Secured Accounts</h4>
+                        <p class="font-weight-300 font-size-18 line-height-27 blue-grey darken-4">Lorem ipsum dolor sit amet eu debet utinam vim Idque accusam debinam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ac l33 m33 s100 mt-20">
+                <div>
+                    <div class="aione-align-center mb-30">
+                        <i class="ion-ios-cube font-size-70 ph-25 aione-circle white bg-red-grdt" style=""></i>
+                    </div>
+                    <div class="aione-align-center">
+                        <h4 class="font-weight-300 blue-grey darken-4 mb-10">Device Supported</h4>
+                        <p class="font-weight-300 font-size-18 line-height-27 blue-grey darken-4">Lorem ipsum dolor sit amet eu debet utinam vim Idque accusam debinam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('worker.js').then(function(registration) {
+                    console.log('Worker registration successful', registration.scope);
+                }, function(err) {
+                    console.log('Worker registration failed', err);
+                }).catch(function(err) {
+                    console.log(err);
+                });
+            });
+        } else {
+            console.log('Service Worker is not supported by browser.');
+        }
+    </script>
+</body>
+
+</html>
