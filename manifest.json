@@ -1,9 +1,9 @@
 {
   "name": "Progressive Web Application",
-  "short_name": "pwa",
+  "short_name": "republic",
   "display": "standalone",
   "theme_color": "#1770a6",
-  "background_color": "#3367D6",
+  "background_color": "#00ff66",
   "scope": "/",
   "start_url": ".",
   "icons": [
