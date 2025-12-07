@@ -32,7 +32,7 @@ public class SecurityConfig {
         http.csrf(AbstractHttpConfigurer::disable)
                 .exceptionHandling(e -> e.authenticationEntryPoint((AuthenticationEntryPoint) entryPoint))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("https://hr-services-ochre.vercel.app/").permitAll()
+                        .requestMatchers("/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .httpBasic(Customizer.withDefaults());
