@@ -9,7 +9,7 @@
 //    @Bean
 //    public CorsConfigurationSource corsConfigurationSource() {
 //        CorsConfiguration config = new CorsConfiguration();
-//        config.addAllowedOrigin("https://hr-services-av80ql2pw-abhinav-jains-projects-3d191c7f.vercel.app");
+//        config.addAllowedOrigin("hr-services-30wzsr2jz-abhinav-jains-projects-3d191c7f.vercel.app");
 //        config.addAllowedOriginPattern("*");
 //        config.addAllowedHeader("*");
 //        config.addAllowedMethod("*");
