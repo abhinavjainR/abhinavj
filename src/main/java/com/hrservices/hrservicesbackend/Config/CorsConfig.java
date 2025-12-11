@@ -41,7 +41,7 @@ public class CorsConfig {
         ));
 
         // OR, if you need to support any vercel preview subdomain, use patterns instead:
-        // config.setAllowedOriginPatterns(List.of("https://*.vercel.app"));
+        config.setAllowedOriginPatterns(List.of("https://*.vercel.app"));
 
         config.setAllowedHeaders(List.of("*"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"));
