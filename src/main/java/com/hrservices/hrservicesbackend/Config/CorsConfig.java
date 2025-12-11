@@ -9,7 +9,7 @@
 //    @Bean
 //    public CorsConfigurationSource corsConfigurationSource() {
 //        CorsConfiguration config = new CorsConfiguration();
-//        config.addAllowedOrigin("hr-services-30wzsr2jz-abhinav-jains-projects-3d191c7f.vercel.app");
+//        config.addAllowedOrigin("https://hr-services-30wzsr2jz-abhinav-jains-projects-3d191c7f.vercel.app");
 //        config.addAllowedOriginPattern("*");
 //        config.addAllowedHeader("*");
 //        config.addAllowedMethod("*");
@@ -37,7 +37,7 @@ public class CorsConfig {
         // Allow your exact frontend origin(s).
         // Use allowed origin patterns if you need subdomain wildcards, e.g. "https://*.vercel.app"
         config.setAllowedOrigins(List.of(
-                "hr-services-30wzsr2jz-abhinav-jains-projects-3d191c7f.vercel.app"
+                "https://hr-services-30wzsr2jz-abhinav-jains-projects-3d191c7f.vercel.app"
         ));
 
         // OR, if you need to support any vercel preview subdomain, use patterns instead:
